@@ -1,0 +1,69 @@
+
+body {
+  font-family: "Lora", "Georgia", serif;
+  font-size: 1.2em;
+  color: #3d3d3d;
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+}
+
+h1, h2 {
+  color: #888;
+}
+
+.header {
+  display: flex;
+  background-image:  url("https://loremflickr.com/1400/600/technology?lock=1000");
+  background-size: cover;
+}
+
+.container {
+  align-content: center;
+  margin: 0 auto;
+}
+
+.article-body {
+
+}
+
+.article-body > a {
+  text-decoration: none;
+  background-color: linear-gradient(yellow, lightgreen);
+}
+.article-body > a:hover {
+  background-color: linear-gradient(lightgreen, green);
+}
+
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.paragraph-text {
+
+
+}
+
+.heading-text {
+
+}
